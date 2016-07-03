@@ -8,21 +8,25 @@
 
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--<link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">-->
+
+
+    <script type="text/javascript" src="javascripts/show_current_time/worker_controller.js"></script>
 
     <title>Micoo</title>
   </head>
 
-  <body>
+  <body onload="startWorker()">
 
     <header>
       <div class="container">
         <h1>Micoo</h1>
         <h2>Just do it.</h2>
 
-        <section id="downloads">
+        <!--<section id="downloads">
           <a href="https://github.com/wuyangwei" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
-        </section>
+        </section>-->
+        <output id="current_time">current time</output>
       </div>
     </header>
 
@@ -54,7 +58,5 @@
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
       </section>
     </div>
-
-    
   </body>
 </html>
